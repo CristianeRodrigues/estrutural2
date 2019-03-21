@@ -15,6 +15,7 @@ public class B {
     A ClassA;
     
     public int getCodigoB(){
+        String nomeAux = ClassA.getNomeA();
         return this.codigoB;
     }
     
