@@ -20,5 +20,6 @@ public class B {
     
     public void setCodigoB(int codigoB){
         this.codigoB = codigoB;
+        ClassA.setCodigoA(codigoB);
     } 
 }
