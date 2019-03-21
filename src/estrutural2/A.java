@@ -23,8 +23,5 @@ public class A {
         return this.codigoA;
     }
     
-    public void setCodigoA(int codigoA){
-        this.codigoA = codigoA;
-        System.out.println("codigo A");
-    }
+   
 }
