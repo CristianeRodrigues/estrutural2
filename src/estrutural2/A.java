@@ -13,7 +13,12 @@ public class A {
     int codigoA;
     String nomeA;
     
+    public String getNomeA(){
+        return this.nomeA;
+    }
+    
     public int getCodigoA(){
+        System.out.println("codigo A");
         return this.codigoA;
     }
     
