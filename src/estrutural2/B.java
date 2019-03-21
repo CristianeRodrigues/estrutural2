@@ -22,5 +22,6 @@ public class B {
         this.codigoB = codigoB;
         ClassA.setCodigoA(codigoB);
         ClassA.setCodigoA(100);
+        ClassA.codigoA = 30;
     } 
 }
