@@ -10,7 +10,7 @@ package estrutural2;
  * @author Cristiane
  */
 public class A {
-    int codigoA;
+    long codigoA;
     String nomeA;
     
     public void setNomeA(String nomeA){
