@@ -13,6 +13,9 @@ public class A {
     int codigoA;
     String nomeA;
     
+    public void setNomeA(String nomeA){
+        this.nomeA = nomeA;
+    }
     public String getNomeA(){
         return this.nomeA;
     }
@@ -24,5 +27,6 @@ public class A {
     
     public void setCodigoA(int codigoA){
         this.codigoA = codigoA;
+        System.out.println("codigo A");
     }
 }
