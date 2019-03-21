@@ -10,6 +10,7 @@ package estrutural2;
  * @author Cristiane
  */
 public class A {
+    String nomeAuxA;
     long codigoA;
     String nomeA;
     
