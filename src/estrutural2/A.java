@@ -16,9 +16,7 @@ public class A {
     public void setNomeA(String nomeA){
         this.nomeA = nomeA;
     }
-    public String getNomeA(){
-        return this.nomeA;
-    }
+    
     
     public int getCodigoA(){
         System.out.println("codigo A");
