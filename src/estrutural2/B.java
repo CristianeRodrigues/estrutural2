@@ -19,6 +19,10 @@ public class B {
         return this.codigoB;
     }
     
+    public void add_nome(){
+        ClassA.setCodigoA(codigoB);
+    }
+    
     public void setCodigoB(int codigoB){
         this.codigoB = codigoB;
         ClassA.setCodigoA(codigoB);
